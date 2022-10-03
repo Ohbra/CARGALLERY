@@ -1,0 +1,77 @@
+html{
+		
+    /* Location of the image */
+    background-image: url("Ferrari.jpg");
+    
+/* Add the blur effect */
+/*   filter: blur(8px);
+-webkit-filter: blur(8px); */
+    
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    
+    /* Background image is fixed in the viewport so that it doesn't move when 
+       the content's height is greater than the image's height */
+    background-attachment: fixed;
+    
+    /* This is what makes the background image rescale based
+       on the container's size */
+    background-size: cover;
+    
+    /* Set a background color that will be displayed
+       while the background image is loading */
+    background-color: #464646;
+
+
+   
+}
+body{
+  margin:0 auto;
+  padding:0 20px 20px 20px;
+  
+}
+img{
+  border:solid rgb(177, 172, 172) 2px;
+  width:50%;
+  height:auto;
+  margin:10px auto;
+  display: block;
+}
+h1 
+  {
+    color: black;
+    font-family: Tangerine;
+    font-size: 200%;
+    text-align:center;
+    margin: 10px;
+    padding: 20px 0;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 1px;
+  }
+  
+p,ul,ol
+  {	  color: rgb(14, 14, 14);
+        font-family: sans-serif;
+        font-size: 120%;
+        margin:0 auto;
+        text-align:center;
+  }
+
+button {
+border: none;
+color: rgb(15, 15, 15);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}
+
